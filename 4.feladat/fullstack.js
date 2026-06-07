@@ -17,6 +17,8 @@ function gombKattintas() {
 
     const nyertesek = fullStack(frontSzoveg, backSzoveg);
 
+    eredmenyKijelzo.classList.add('aktiv');
+
     if (nyertesek.length > 0) {
         let htmlTartalom = "<div style='margin-bottom: 10px;'>Felvéve mint Full Stack fejlesztő:</div>";
         nyertesek.forEach(nev => {
