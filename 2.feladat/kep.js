@@ -29,14 +29,12 @@ function kepValtoDivKeszito(kezdokepUrl, masodikKepUrl) {
     return ujDiv;
 }
 
-// --- TESZTELÉS ---
-// Hogy lásd is a működést, hívjuk meg a függvényt két online kép linkjével!
-// (Bármilyen képlinket betehetsz ide)
+
 const elsoKep = "img/szorfestenger.jpg";
 const masodikKep = "img/szorfdeszka.jpg";
 
-// Eltároljuk a függvény által visszaadott div-et egy változóban
+
 const SzuperDiv = kepValtoDivKeszito(elsoKep, masodikKep);
 
-// Végül kirakjuk a HTML body-ba, hogy megjelenjen a böngészőben
+
 document.body.appendChild(SzuperDiv);
